@@ -5,9 +5,13 @@
 # questions.
 
 # 1. What is the 'Collection'?
+# A hash or an array
 # 2. What do you notice about the code below?
+# We have an array with 3 names in it and we are using puts 3 times to print all names
 # 3. What issues could potentially crop up?
+# If we have an array that's big, we will need to make our code really long to output each name. We also might not know how many elements are in the array.
 # 4. Is there an alternative you could propose?
+# Using the each method to go through each element of the array and shorten the code.
 
 students = ["Megan", "Bob", "Mike"]
 # puts students[0]
